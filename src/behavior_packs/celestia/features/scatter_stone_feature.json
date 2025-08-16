@@ -1,0 +1,51 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "celestia:scatter_stone_feature"
+    },
+    "places_feature": "celestia:stone_feature",
+    "iterations": 1,
+    "coordinate_eval_order": "xzy",
+    "x": 0,
+    "y": "((q.noise(v.worldx/32+13, v.originy/24+17)+q.noise(v.originy/24+9, v.worldz/32+13)+q.noise(v.worldz/32+17, v.worldx/32+9))/3)>(((q.noise(v.worldx/128+13, v.originy/96+17)+q.noise(v.originy/96+9, v.worldz/128+13)+q.noise(v.worldz/128+17, v.worldx/128+9))/3)*2+3+(2.5*(-1+math.pow((v.originy-64)/64, 2))))?128:2048",
+    "z": 0
+  }
+}
+
+/*
+        v.offset1 = 13.0;
+        v.offset2 = 17.0;
+        v.offset3 = 9.0;
+
+        v.fx = v.worldx / 32;
+        v.fy = v.originy / 24;
+        v.fz = v.worldz / 32;
+
+        v.nxy = q.noise(v.fx + v.offset1, v.fy + v.offset2);
+        v.nyz = q.noise(v.fy + v.offset3, v.fz + v.offset1);
+        v.nzx = q.noise(v.fz + v.offset2, v.fx + v.offset3);
+
+        v.perlin3d_approx = (v.nxy + v.nyz + v.nzx) / 3;
+
+        v.fx2 = v.worldx / 128;
+        v.fy2 = v.originy / 96;
+        v.fz2 = v.worldz / 128;
+
+        v.nxy2 = q.noise(v.fx2 + v.offset1, v.fy2 + v.offset2);
+        v.nyz2 = q.noise(v.fy2 + v.offset3, v.fz2 + v.offset1);
+        v.nzx2 = q.noise(v.fz2 + v.offset2, v.fx2 + v.offset3);
+
+        v.perlin3d_approx2 = (v.nxy2 + v.nyz2 + v.nzx2) / 3;
+
+        // v.gauss = math.exp(- math.pow((v.originy) - 192, 2) / (2 * math.pow(64, 2)));
+        v.quadratic = -1 + math.pow((v.originy - 64) / 64, 2);
+
+        v.quadraticMapped = - (v.quadratic * 2.5);
+
+        v.dynamicThreshold = (v.perlin3d_approx2 * 2.0 + 3.0) + v.quadraticMapped;
+
+        v.permitted = (v.perlin3d_approx > v.dynamicThreshold) ? 1 : 0;
+
+        return (v.permitted > 0) ? 127 : 2048;
+*/

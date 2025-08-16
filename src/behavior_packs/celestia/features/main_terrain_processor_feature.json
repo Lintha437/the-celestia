@@ -1,0 +1,16 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "celestia:main_terrain_processor_feature"
+    },
+    "features": [
+      "celestia:scatter_dirt_feature",
+      "celestia:scatter_stone_feature",
+      "celestia:scatter_deepslate_feature",
+      "celestia:scatter_obsidian_feature",
+      "celestia:scatter_lava_feature"
+    ],
+    "early_out": "first_failure"
+  }
+}
