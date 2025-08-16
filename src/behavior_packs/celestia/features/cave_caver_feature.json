@@ -79,7 +79,7 @@
             "name": "minecraft:dirt"
           },
           {
-            "name": "minecraft:grass"
+            "name": "minecraft:grass_block"
           }
         ]
       }
