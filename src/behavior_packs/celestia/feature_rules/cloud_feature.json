@@ -1,12 +1,12 @@
 {
-  "format_version": "1.13.0",
+  "format_version": "1.14.0",
   "minecraft:feature_rules": {
     "description": {
-      "identifier": "celestia:fallen_rotting_trunk_feature0",
-      "places_feature": "celestia:fallen_rotting_trunk0_structure"
+      "identifier": "celestia:cloud_feature",
+      "places_feature": "celestia:scatter_cloud_feature"
     },
     "conditions": {
-      "placement_pass": "final_pass",
+      "placement_pass": "before_sky_pass",
       "minecraft:biome_filter": [
         {
           "any_of": [
@@ -30,15 +30,18 @@
       ]
     },
     "distribution": {
-      "iterations": 1,
-      "scatter_chance": 25,
+      "iterations": 2048,
+      "coordinate_eval_order": "xzy",
       "x": {
-        "distribution": "uniform",
+        "distribution": "fixed_grid",
         "extent": [0, 15]
       },
-      "y": "query.above_top_solid(variable.worldx, variable.worldz) - 1",
+      "y": {
+        "distribution": "fixed_grid",
+        "extent": [168, 176]
+      },
       "z": {
-        "distribution": "uniform",
+        "distribution": "fixed_grid",
         "extent": [0, 15]
       }
     }

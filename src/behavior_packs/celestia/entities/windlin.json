@@ -30,6 +30,7 @@
       }
     },
     "components": {
+      "minecraft:conditional_bandwidth_optimization": {},
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:leashable": {},
       "minecraft:leashable_to": {},
