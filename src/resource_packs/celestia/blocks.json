@@ -2,7 +2,6 @@
   "format_version": [1, 1, 0],
   "celestia:cloud": {
     "isotropic": true,
-    "textures": "cloud",
     "brightness_gamma": 128.0,
     "sound": "cloth"
   }

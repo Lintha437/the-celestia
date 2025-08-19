@@ -4,8 +4,8 @@
     "description": {
       "identifier": "celestia:wind",
       "menu_category": {
-        "category": "items",
-        "group": "itemGroup.name.nature"
+        "category": "equipment"
+        // "group": "itemGroup.name.nature"
       }
     },
     "components": {
