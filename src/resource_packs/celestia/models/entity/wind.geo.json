@@ -15,7 +15,10 @@
           "name": "wind",
           "pivot": [0, 0, 0],
           "locators": {
-            "wind_particle": [0, 0, 0]
+            "locator": {
+              "offset": [0, 0, 0],
+              "rotation": [0, 0, 0]
+            }
           }
         }
       ]

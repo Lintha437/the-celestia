@@ -6,6 +6,9 @@
       "materials": {
         "default": "entity_alphatest"
       },
+      "textures": {
+        "default": "textures/empty"
+      },
       "geometry": {
         "default": "geometry.wind"
       },
@@ -13,11 +16,13 @@
         "default": "celestia:wind_particle"
       },
       "animations": {
-        "default": "controller.animation.wind.default"
+        "default": "controller.animation.wind.default",
+        "default_ani": "animation.wind.default"
       },
       "scripts": {
         "animate": ["default"]
-      }
+      },
+      "render_controllers": ["controller.render.wind"]
     }
   }
 }
