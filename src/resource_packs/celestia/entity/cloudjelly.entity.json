@@ -1,0 +1,40 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "celestia:cloudjelly",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "normal": "textures/entity/cloudjelly/normal",
+        "red": "textures/entity/cloudjelly/red",
+        "orange": "textures/entity/cloudjelly/orange",
+        "yellow": "textures/entity/cloudjelly/yellow",
+        "green": "textures/entity/cloudjelly/green",
+        "cyan": "textures/entity/cloudjelly/cyan",
+        "blue": "textures/entity/cloudjelly/blue",
+        "purple": "textures/entity/cloudjelly/purple"
+      },
+      "geometry": {
+        "default": "geometry.cloudjelly"
+      },
+      "animations": {
+        "move": "animation.cloudjelly.move"
+      },
+      "animation_controllers": [
+        {
+          "move": "controller.animation.cloudjelly.move"
+        }
+      ],
+      "particle_effects": {
+        "cloud": "celestia:cloudjelly_trail_particle"
+      },
+      "render_controllers": ["controller.render.cloudjelly"],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 35
+      }
+    }
+  }
+}

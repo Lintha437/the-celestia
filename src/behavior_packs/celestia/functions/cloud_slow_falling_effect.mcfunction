@@ -1,0 +1,1 @@
+execute as @e at @s if block ~ ~ ~ celestia:cloud run effect @s slow_falling 30 1 true

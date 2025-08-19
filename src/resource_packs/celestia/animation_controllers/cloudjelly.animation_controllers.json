@@ -1,0 +1,31 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.cloudjelly.move" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [ "move" ],
+					"particle_effects": [
+						{
+							"effect" : "cloud",
+							"locator" : "tentacle0"
+						},
+						{
+							"effect" : "cloud",
+							"locator" : "tentacle1"
+						},
+						{
+							"effect" : "cloud",
+							"locator" : "tentacle2"
+						},
+						{
+							"effect" : "cloud",
+							"locator" : "tentacle3"
+						}
+					]
+				}
+			}
+		}
+	}
+}

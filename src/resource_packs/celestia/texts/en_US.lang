@@ -1,0 +1,31 @@
+﻿action.hint.exit.celestia:cloudskater=Tap sneak to dismount	##
+
+item.celestia:wind=Wind	##
+
+tile.celestia:cloud.name=Cloud	##
+
+entity.celestia:wind.name=Wind	##
+entity.celestia:wind_kb.name=Wind	##
+entity.celestia:windlin.name=Windlin	##
+entity.celestia:cloudskater.name=cloudskater	##
+entity.celestia:cloudjelly.name=Cloudjelly	##
+entity.celestia:cyclone.name=Cyclone	##
+entity.celestia:anticyclone.name=Anticyclone	##
+entity.celestia:cloud_moth.name=Cloud Moth	##
+entity.celestia:herobrine.name=Herobrine	##
+
+item.spawn_egg.entity.celestia:windlin.name=Spawn Windlin	##
+item.spawn_egg.entity.celestia:cloudskater.name=Spawn Cloudskater	##
+item.spawn_egg.entity.celestia:cloudjelly.name=Spawn Cloudjelly	##
+item.spawn_egg.entity.celestia:cloud_moth.name=Spawn Cloud Moth	##
+
+easter_eggs.cottage.diary.page1.text0=Date: October 6, 2011	##
+easter_eggs.cottage.diary.page1.text1=Weather: Cyclone Turns Clear	##
+easter_eggs.cottage.diary.page1.text2=    I don't know what happened, but I woke up and found myself and my family in a strange house, as if engulfed by an unfamiliar dream. Opening the door, instead of warm sunlight, there was a sea of confusion.	##
+easter_eggs.cottage.diary.page2.text0=The house was on a floating island, surrounded by floating islands and clouds, making me feel incredibly isolated and fearful. I couldn't help but repeatedly ask myself what happened, where am I, is this a dream or reality?	##
+easter_eggs.cottage.diary.page3.text0=    Last night's dream was even more terrifying. Swept up into the sky by a tornado, there was also a strange middle-aged man with pure white glowing eyes, who whispered something to me. I couldn't hear clearly, or maybe I forgot. Suddenly woke up to find myself	##
+easter_eggs.cottage.diary.page4.text0=in an unfamiliar environment. Outside the window, there was a sound like a whale but unsettling, full of loneliness and solitude, making me curl up in bed. Downstairs, there was a group of people talking-some familiar, some strangers-laughter, cries,	##
+easter_eggs.cottage.diary.page5.text0=and sighs mixed together, making me feel even more uneasy :(	##
+easter_eggs.cottage.diary.page6.text0=    Anyway, it seems I don't have to go to that suffocating school today, but I don't feel fortunate because of it. This floating island brings me nothing but confusion and anxiety. The fear of the unknown leaves me feeling lost. Perhaps in this unfamiliar world,	##
+easter_eggs.cottage.diary.page7.text0=there will be more frightening things waiting for me. All I can do is pray to hear answers soon and escape this deep sense of fear...	##
+easter_eggs.cottage.diary.page7.text1=Elena, who is very scared today	##

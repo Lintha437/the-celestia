@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "cloud",
+		"metalness_emissive_roughness": "cloud_mer",
+		"normal": "cloud_normal"
+	}
+}

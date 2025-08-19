@@ -1,0 +1,49 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "celestia:melon_bush_feature0",
+      "places_feature": "celestia:melon_bush0_structure"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "overworld"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "overworld_generation"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "the_end"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 100,
+      "x": {
+        "distribution": "uniform",
+        "extent": [0, 15]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [128, 256]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [0, 15]
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "celestia:cloud_moth",
+      "population_control": "animal"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+        "minecraft:spawns_underground": {},
+        "minecraft:weight": {
+          "default": 8
+        },
+        "minecraft:density_limit": {
+          "surface": 16,
+          "underground": 16
+        },
+        "minecraft:biome_filter": [
+          {
+            "any_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "overworld"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "overworld_generation"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "nether"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "the_end"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

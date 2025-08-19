@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "celestia:cloud_moth",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/entity/cloud_moth/cloud_moth"
+      },
+      "geometry": {
+        "default": "geometry.cloud_moth"
+      },
+      "animations": {
+        "flying": "animation.cloud_moth.flying",
+        "root_controller": "controller.animation.cloud_moth.root"
+      },
+      "scripts": {
+        "animate": ["root_controller"]
+      },
+      "render_controllers": ["controller.render.cloud_moth"],
+      "spawn_egg": {
+        "overlay_color": "#C0C2E5",
+        "base_color": "#61658E"
+      }
+    }
+  }
+}

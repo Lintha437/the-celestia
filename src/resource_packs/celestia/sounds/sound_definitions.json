@@ -1,0 +1,132 @@
+{
+  "format_version": "1.17.0",
+  "sound_definitions": {
+    "mob.cloudskater.say": {
+      "category": "neutral",
+      "min_distance": 256.0,
+      "subtitle": "subtitles.entity.cloudskater.say",
+      "sounds": [
+        {
+          "name": "sounds/celestia/mob/cloudskater/say1",
+          "volume": 1,
+          "pitch": 1.0
+        },
+        {
+          "name": "sounds/celestia/mob/cloudskater/say2",
+          "volume": 1,
+          "pitch": 1.0
+        },
+        {
+          "name": "sounds/celestia/mob/cloudskater/say3",
+          "volume": 1,
+          "pitch": 1.0
+        },
+        {
+          "name": "sounds/celestia/mob/cloudskater/say4",
+          "volume": 1,
+          "pitch": 1.0
+        }
+      ]
+    },
+    "mob.cloudskater.hurt": {
+      "category": "neutral",
+      "min_distance": 256.0,
+      "subtitle": "subtitles.entity.cloudskater.hurt",
+      "sounds": [
+        {
+          "name": "sounds/mob/vex/hurt1",
+          "volume": 16,
+          "pitch": 0.15
+        },
+        {
+          "name": "sounds/mob/vex/hurt2",
+          "volume": 16,
+          "pitch": 0.15
+        }
+      ]
+    },
+    "mob.cloudskater.death": {
+      "category": "neutral",
+      "min_distance": 256.0,
+      "subtitle": "subtitles.entity.cloudskater.death",
+      "sounds": [
+        {
+          "name": "sounds/mob/vex/hurt1",
+          "volume": 16,
+          "pitch": 0.1
+        },
+        {
+          "name": "sounds/mob/vex/hurt2",
+          "volume": 16,
+          "pitch": 0.1
+        }
+      ]
+    },
+    "mob.cloud_moth.hit": {
+      "category": "hostile",
+      "sounds": ["sounds/mob/silverfish/hit1", "sounds/mob/silverfish/hit2", "sounds/mob/silverfish/hit3"]
+    },
+    "mob.cloud_moth.kill": {
+      "category": "hostile",
+      "sounds": ["sounds/mob/silverfish/kill"]
+    },
+    "mob.cloud_moth.say": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/mob/silverfish/say1",
+        "sounds/mob/silverfish/say2",
+        "sounds/mob/silverfish/say3",
+        "sounds/mob/silverfish/say4"
+      ]
+    },
+    "mob.cloud_moth.step": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/mob/bee/loop1",
+        "sounds/mob/bee/loop2",
+        "sounds/mob/bee/loop3",
+        "sounds/mob/bee/loop4",
+        {
+          "name": "sounds/mob/bee/loop5",
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "mob.cloudjelly.hurt": {
+      "category": "neutral",
+      "subtitle": "subtitles.entity.cloudjelly.hurt",
+      "sounds": ["sounds/mob/slime/big1", "sounds/mob/slime/big2", "sounds/mob/slime/big3", "sounds/mob/slime/big4"]
+    },
+    "mob.windlin.hurt": {
+      "category": "neutral",
+      "min_distance": 100.0,
+      "subtitle": "subtitles.entity.windlin.hurt",
+      "sounds": [
+        "sounds/mob/polarbear/hurt1",
+        "sounds/mob/polarbear/hurt2",
+        "sounds/mob/polarbear/hurt3",
+        "sounds/mob/polarbear/hurt4"
+      ]
+    },
+    "wind.fire": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/celestia/wind/wind_fire",
+          "volume": 2,
+          "pitch": 1
+        }
+      ]
+    },
+    "wind.hit": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/celestia/wind/wind_hit",
+          "volume": 8,
+          "pitch": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cloudskater.base_pose": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"position": [0, -20, 0],
+					"rotation": ["-query.target_x_rotation", 0, 0]
+				}
+			}
+		},
+		"animation.cloudskater.move": {
+			"loop": true,
+			"bones": {
+				"tail": {
+					"rotation": ["-24.0 * Math.sin((query.life_time * 8.0) * 16.0)", 0, 0]
+				},
+				"tailtip": {
+					"rotation": ["-24.0 * Math.sin((query.life_time * 8.0 - 4) * 16.0)", 0, 0]
+				},
+				"wing0": {
+					"rotation": [0, 0, "24.0 * Math.sin((query.life_time * 16.0) * 8.0)"]
+				},
+				"wing1": {
+					"rotation": [0, 0, "-(24.0 * Math.sin((query.life_time * 16.0) * 8.0))"]
+				},
+				"wingtip0": {
+					"rotation": [0, 0, "24.0 * Math.sin((query.life_time * 16.0 - 8) * 8.0)"]
+				},
+				"wingtip1": {
+					"rotation": [0, 0, "-(24.0 * Math.sin((query.life_time * 16.0 - 8) * 8.0))"]
+				}
+			}
+		}
+	}
+}
