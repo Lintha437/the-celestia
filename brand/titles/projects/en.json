@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "data": {
+    "fontId": "Minecraft Ten",
+    "texts": [
+      {
+        "content": "CELESTIA",
+        "opts": {
+          "size": 10,
+          "depth": 5,
+          "y": -1,
+          "z": 0,
+          "rotY": 0,
+          "materials": {
+            "front": {
+              "mode": "gradient",
+              "colorGradualStart": "#caffff",
+              "colorGradualEnd": "#31deed",
+              "repeat": 1,
+              "offset": 0
+            },
+            "back": {
+              "mode": "gradient",
+              "colorGradualStart": "#caffff",
+              "colorGradualEnd": "#31deed",
+              "repeat": 1,
+              "offset": 0
+            },
+            "up": {
+              "mode": "color",
+              "color": "#004d4d"
+            },
+            "down": {
+              "mode": "gradient",
+              "colorGradualStart": "#00b3b3",
+              "colorGradualEnd": "#004d4d",
+              "repeat": 1,
+              "offset": 0
+            },
+            "left": {
+              "mode": "color",
+              "color": "#004d4d"
+            },
+            "right": {
+              "mode": "color",
+              "color": "#004d4d"
+            },
+            "outline": {
+              "mode": "color",
+              "color": "#002626"
+            }
+          },
+          "outlineWidth": 0.4,
+          "letterSpacing": 1,
+          "spacingWidth": 0.2,
+          "overlay": {
+            "name": "overlay.highlightTop",
+            "preview": "/overlay-preview/highlight-top.png"
+          }
+        },
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "content": "THE",
+        "opts": {
+          "size": 5,
+          "depth": 2,
+          "y": 12,
+          "z": 1.5,
+          "rotY": 0,
+          "materials": {
+            "front": {
+              "mode": "gradient",
+              "colorGradualStart": "#c8ffc3",
+              "colorGradualEnd": "#66d866",
+              "repeat": 1,
+              "offset": 0
+            },
+            "back": {
+              "mode": "gradient",
+              "colorGradualStart": "#c8ffc3",
+              "colorGradualEnd": "#66d866",
+              "repeat": 1,
+              "offset": 0
+            },
+            "up": {
+              "mode": "color",
+              "color": "#1a5e1a"
+            },
+            "down": {
+              "mode": "gradient",
+              "colorGradualStart": "#3f8f3f",
+              "colorGradualEnd": "#144e14",
+              "repeat": 1,
+              "offset": 0
+            },
+            "left": {
+              "mode": "color",
+              "color": "#1a5e1a"
+            },
+            "right": {
+              "mode": "color",
+              "color": "#1a5e1a"
+            },
+            "outline": {
+              "mode": "color",
+              "color": "#0a2c0a"
+            }
+          },
+          "outlineWidth": 0.8,
+          "letterSpacing": 1.5,
+          "spacingWidth": 0.2,
+          "overlay": {
+            "name": "overlay.highlightGlass",
+            "preview": "/overlay-preview/glass.png"
+          }
+        },
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "fontId": "MinecraftFiveV3X"
+      }
+    ]
+  }
+}

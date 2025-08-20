@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "data": {
+    "fontId": "Fusion Pixel 10px",
+    "texts": [
+      {
+        "content": "天域",
+        "opts": {
+          "size": 20,
+          "depth": 8,
+          "y": 0,
+          "z": 0,
+          "rotY": 0,
+          "materials": {
+            "front": {
+              "mode": "gradient",
+              "colorGradualStart": "#caffff",
+              "colorGradualEnd": "#31deed",
+              "repeat": 1,
+              "offset": 0
+            },
+            "back": {
+              "mode": "gradient",
+              "colorGradualStart": "#caffff",
+              "colorGradualEnd": "#31deed",
+              "repeat": 1,
+              "offset": 0
+            },
+            "up": {
+              "mode": "color",
+              "color": "#004d4d"
+            },
+            "down": {
+              "mode": "gradient",
+              "colorGradualStart": "#00b3b3",
+              "colorGradualEnd": "#004d4d",
+              "repeat": 1,
+              "offset": 0
+            },
+            "left": {
+              "mode": "color",
+              "color": "#004d4d"
+            },
+            "right": {
+              "mode": "color",
+              "color": "#004d4d"
+            },
+            "outline": {
+              "mode": "color",
+              "color": "#002626"
+            }
+          },
+          "outlineWidth": 0.5,
+          "letterSpacing": 4,
+          "spacingWidth": 0.2,
+          "overlay": {
+            "name": "overlay.highlightTop",
+            "preview": "/overlay-preview/highlight-top.png"
+          }
+        },
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  }
+}
