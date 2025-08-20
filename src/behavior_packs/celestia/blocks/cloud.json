@@ -9,11 +9,6 @@
       }
     },
     "components": {
-      "minecraft:geometry": {
-        "identifier": "geometry.celestia.full_block",
-        "culling": "celestia:cloud_culling",
-        "culling_layer": "minecraft:culling_layer.leaves"
-      },
       "minecraft:destructible_by_mining": {
         "seconds_to_destroy": 0.0
       },
@@ -34,7 +29,6 @@
       },
       "minecraft:material_instances": {
         "*": {
-          "texture": "cloud",
           "render_method": "blend_to_opaque",
           "ambient_occlusion": false
         }

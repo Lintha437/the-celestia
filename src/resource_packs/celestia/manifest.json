@@ -1,15 +1,16 @@
 {
   "format_version": 2,
   "header": {
-    "name": "§lTHE CELESTIA 1.0.0§r",
-    "description": "Where you can experience a heavenly adventure experience.",
+    "name": "pack.name",
+    "description": "pack.description",
     "uuid": "b65183cd-69a3-4e9e-ac99-e16404b401cb",
+    "pack_scope": "world",
     "version": [1, 0, 0],
     "min_engine_version": [1, 21, 0]
   },
   "modules": [
     {
-      "description": "Add-on Pack Resources",
+      "description": "The Celestia Pack Resources",
       "type": "resources",
       "uuid": "c9f8f9b5-efd3-4f7c-a4d9-4dbc6ae0bd62",
       "version": [1, 0, 0]

@@ -2,34 +2,34 @@
   "format_version": "1.14.0",
   "minecraft:feature_rules": {
     "description": {
-      "identifier": "celestia:grass_block_feature",
-      "places_feature": "celestia:scatter_grass_block_feature"
+      "identifier": "celestia:sandstone_feature",
+      "places_feature": "celestia:scatter_sandstone_feature"
     },
     "conditions": {
-      "placement_pass": "after_sky_pass",
+      "placement_pass": "final_pass",
       "minecraft:biome_filter": [
         {
           "all_of": [
             {
-              "all_of": [
+              "any_of": [
                 {
                   "test": "has_biome_tag",
-                  "operator": "!=",
+                  "operator": "==",
                   "value": "desert"
                 },
                 {
                   "test": "has_biome_tag",
-                  "operator": "!=",
+                  "operator": "==",
                   "value": "desert_hills"
                 },
                 {
                   "test": "has_biome_tag",
-                  "operator": "!=",
+                  "operator": "==",
                   "value": "desert_mutated"
                 },
                 {
                   "test": "has_biome_tag",
-                  "operator": "!=",
+                  "operator": "==",
                   "value": "beach"
                 }
               ]

@@ -1,4 +1,7 @@
-﻿action.hint.exit.celestia:cloudskater=Tap sneak to dismount	##
+﻿pack.name=§lTHE CELESTIA §aRELEASE 1.0.0§r	##
+pack.description=Where you can experience a heavenly adventure experience!	##
+
+action.hint.exit.celestia:cloudskater=Tap sneak to dismount	##
 
 item.celestia:wind=Wind	##
 

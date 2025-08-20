@@ -1,0 +1,22 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "celestia:scatter_sand_feature"
+    },
+    "places_feature": "celestia:sand_feature",
+    "iterations": 32768,
+    "x": {
+      "extent": [0, 15],
+      "distribution": "fixed_grid"
+    },
+    "y": {
+      "extent": [0, 127],
+      "distribution": "fixed_grid"
+    },
+    "z": {
+      "extent": [0, 15],
+      "distribution": "fixed_grid"
+    }
+  }
+}

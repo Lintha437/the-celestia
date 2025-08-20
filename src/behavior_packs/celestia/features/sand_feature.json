@@ -4,9 +4,12 @@
     "description": {
       "identifier": "celestia:sand_feature"
     },
-    "places_block": "minecraft:sand",
     "enforce_placement_rules": false,
     "enforce_survivability_rules": false,
-    "may_replace": ["minecraft:air", "minecraft:grass_block", "minecraft:dirt"]
+    "places_block": "minecraft:sand",
+    "may_replace": ["minecraft:dirt"],
+    "may_attach_to": {
+      "top": ["minecraft:air", "minecraft:snow_layer"]
+    }
   }
 }
