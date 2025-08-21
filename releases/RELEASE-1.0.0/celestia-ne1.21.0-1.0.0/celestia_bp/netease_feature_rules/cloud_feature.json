@@ -1,0 +1,49 @@
+{
+  "format_version": "1.14.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "celestia:cloud_feature",
+      "places_feature": "celestia:scatter_cloud_feature"
+    },
+    "conditions": {
+      "placement_pass": "before_sky_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "overworld"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "overworld_generation"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "the_end"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 2048,
+      "coordinate_eval_order": "xzy",
+      "x": {
+        "distribution": "fixed_grid",
+        "extent": [0, 15]
+      },
+      "y": {
+        "distribution": "fixed_grid",
+        "extent": [168, 176]
+      },
+      "z": {
+        "distribution": "fixed_grid",
+        "extent": [0, 15]
+      }
+    }
+  }
+}

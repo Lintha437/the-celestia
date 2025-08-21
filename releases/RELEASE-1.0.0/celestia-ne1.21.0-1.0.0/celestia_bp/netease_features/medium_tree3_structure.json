@@ -1,0 +1,15 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "celestia:medium_tree3_structure"
+    },
+    "structure_name": "celestia:medium_tree3",
+    "adjustment_radius": 16,
+    "facing_direction": "random",
+    "constraints": {
+      "grounded": {},
+      "unburied": {}
+    }
+  }
+}

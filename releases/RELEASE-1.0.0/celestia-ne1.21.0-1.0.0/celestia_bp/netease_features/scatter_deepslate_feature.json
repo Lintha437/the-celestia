@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "celestia:scatter_deepslate_feature"
+    },
+    "places_feature": "celestia:deepslate_feature",
+    "iterations": 1,
+    "coordinate_eval_order": "xzy",
+    "x": 0,
+    "y": "((q.noise(v.worldx/32+13, v.originy/24+17)+q.noise(v.originy/24+9, v.worldz/32+13)+q.noise(v.worldz/32+17, v.worldx/32+9))/3)>(((q.noise(v.worldx/128+13, v.originy/96+17)+q.noise(v.originy/96+9, v.worldz/128+13)+q.noise(v.worldz/128+17, v.worldx/128+9))/3)*2+3+(2.5*(-1+math.pow((v.originy-64)/64, 2)))+0.4)?128:2048",
+    "z": 0
+  }
+}

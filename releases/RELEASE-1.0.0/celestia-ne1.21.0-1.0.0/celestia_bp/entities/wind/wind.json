@@ -1,0 +1,61 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "celestia:wind",
+      "runtime_identifier": "minecraft:snowball",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": ["wind"]
+      },
+      "minecraft:collision_box": {
+        "width": 0.1,
+        "height": 0.1
+      },
+      "minecraft:projectile": {
+        "on_hit": {
+          "impact_damage": {
+            "damage": 0,
+            "knockback": true
+          },
+          "spawn_chance": {
+            "first_spawn_chance": 1,
+            "second_spawn_chance": 1,
+            "first_spawn_count": 1,
+            "second_spawn_count": 1,
+            "spawn_definition": "celestia:wind_kb",
+            "spawn_baby": false
+          },
+          "remove_on_hit": {},
+          "particle_on_hit": {
+            "num_particles": 6,
+            "on_entity_hit": true,
+            "on_other_hit": true
+          }
+        },
+        "power": 2.4,
+        "gravity": 0.0,
+        "inertia": 1.0,
+        "liquid_inertia": 1.0,
+        "angle_offset": 0.0,
+        "hit_sound": "wind.hit"
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "queue_command": {
+          "command": ["playsound wind.fire @a ~ ~ ~"]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "celestia:windlin",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/windlin/windlin",
+        "shooting": "textures/entity/windlin/windlin_shooting"
+      },
+      "geometry": {
+        "default": "geometry.windlin"
+      },
+      "spawn_egg": {
+        "base_color": "#e6f5ff",
+        "overlay_color": "#88bfe5"
+      },
+      "animations": {
+        "move": "animation.windlin.move",
+        "scale": "animation.windlin.scale"
+      },
+      "animation_controllers": [
+        {
+          "move": "controller.animation.windlin.move"
+        },
+        {
+          "scale": "controller.animation.windlin.scale"
+        }
+      ],
+      "render_controllers": ["controller.render.windlin"]
+    }
+  }
+}

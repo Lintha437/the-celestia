@@ -1,0 +1,94 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:feather",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": "Quill Pen"
+            },
+            {
+              "function": "set_lore",
+              "lore": ["I will never forget the moment when the person I love most gave me this pen...", " - Elena"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_book_contents",
+              "author": "Elena",
+              "title": "Diary Book",
+              "pages": [
+                "{\"rawtext\":[{\"translate\":\"easter_eggs.cottage.diary.page1.text0\"},{\"text\":\"\n\"},{\"translate\":\"easter_eggs.cottage.diary.page1.text1\"},{\"text\":\"\n\n\"},{\"translate\":\"easter_eggs.cottage.diary.page1.text2\"}]}",
+                "{\"rawtext\":[{\"translate\":\"easter_eggs.cottage.diary.page2.text0\"}]}",
+                "{\"rawtext\":[{\"translate\":\"easter_eggs.cottage.diary.page3.text0\"}]}",
+                "{\"rawtext\":[{\"translate\":\"easter_eggs.cottage.diary.page4.text0\"}]}",
+                "{\"rawtext\":[{\"translate\":\"easter_eggs.cottage.diary.page5.text0\"}]}",
+                "{\"rawtext\":[{\"translate\":\"easter_eggs.cottage.diary.page6.text0\"}]}",
+                "{\"rawtext\":[{\"translate\":\"easter_eggs.cottage.diary.page7.text0\"},{\"text\":\"\n\n\n\n\"},{\"translate\":\"easter_eggs.cottage.diary.page7.text1\"}]}"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 4,
+        "max": 16
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:sugar_cane",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 16
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 4,
+        "max": 16
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:sugar",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

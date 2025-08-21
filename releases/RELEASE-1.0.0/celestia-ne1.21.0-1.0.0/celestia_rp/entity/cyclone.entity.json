@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "celestia:cyclone",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/empty"
+      },
+      "geometry": {
+        "default": "geometry.cyclone"
+      },
+      "particle_effects": {
+        "default": "celestia:cyclone_particle"
+      },
+      "animations": {
+        "default": "controller.animation.cyclone.default",
+        "default_ani": "animation.cyclone.default"
+      },
+      "scripts": {
+        "animate": ["default"]
+      },
+      "render_controllers": ["controller.render.cyclone"]
+    }
+  }
+}

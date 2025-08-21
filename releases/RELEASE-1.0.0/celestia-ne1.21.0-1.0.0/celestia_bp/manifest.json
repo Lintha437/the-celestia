@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "21e9e878-4c4f-424c-bee7-f8a2aa502fac",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "description": "The Celestia Behavior",
+      "version": [1, 0, 0],
+      "uuid": "0788ab0d-9386-4d4e-a6bd-f8697e0c5f99",
+      "type": "data"
+    },
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "4e056c5b-7896-4b26-b00f-88ab6453335b",
+      "version": [0, 0, 1],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "b65183cd-69a3-4e9e-ac99-e16404b401cb",
+      "version": [1, 0, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ]
+}

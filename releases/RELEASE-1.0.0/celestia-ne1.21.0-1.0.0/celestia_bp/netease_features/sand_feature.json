@@ -1,0 +1,15 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "celestia:sand_feature"
+    },
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false,
+    "places_block": "minecraft:sand",
+    "may_replace": ["minecraft:dirt"],
+    "may_attach_to": {
+      "top": ["minecraft:air", "minecraft:snow_layer"]
+    }
+  }
+}

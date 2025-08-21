@@ -1,0 +1,82 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "celestia:large_lake_feature"
+    },
+    "count": 128,
+    "replace_rules": [
+      {
+        "places_block": "minecraft:water",
+        "may_replace": [
+          {
+            "name": "minecraft:coal_ore"
+          },
+          {
+            "name": "minecraft:copper_ore"
+          },
+          {
+            "name": "minecraft:diamond_ore"
+          },
+          {
+            "name": "minecraft:emerald_ore"
+          },
+          {
+            "name": "minecraft:gold_ore"
+          },
+          {
+            "name": "minecraft:iron_ore"
+          },
+          {
+            "name": "minecraft:lapis_ore"
+          },
+          {
+            "name": "minecraft:redstone_ore"
+          },
+          {
+            "name": "minecraft:deepslate_coal_ore"
+          },
+          {
+            "name": "minecraft:deepslate_copper_ore"
+          },
+          {
+            "name": "minecraft:deepslate_diamond_ore"
+          },
+          {
+            "name": "minecraft:deepslate_emerald_ore"
+          },
+          {
+            "name": "minecraft:deepslate_gold_ore"
+          },
+          {
+            "name": "minecraft:deepslate_iron_ore"
+          },
+          {
+            "name": "minecraft:deepslate_lapis_ore"
+          },
+          {
+            "name": "minecraft:deepslate_redstone_ore"
+          },
+          {
+            "name": "minecraft:end_stone"
+          },
+          {
+            "name": "minecraft:deepslate"
+          },
+          {
+            "name": "minecraft:stone"
+          },
+          {
+            "name": "minecraft:gravel"
+          },
+          {
+            "name": "minecraft:dirt"
+          },
+          {
+            "name": "minecraft:grass_block"
+          }
+        ]
+      }
+    ]
+  }
+}

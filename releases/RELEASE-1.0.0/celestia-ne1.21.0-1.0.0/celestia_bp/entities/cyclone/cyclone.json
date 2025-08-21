@@ -1,0 +1,106 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "celestia:cyclone",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "celestia:knockback": {
+        "minecraft:behavior.knockback_roar": {
+          "attack_time": 0.05,
+          "cooldown_time": 0.1,
+          "duration": 0.1,
+          "knockback_damage": 0,
+          "knockback_horizontal_strength": -1,
+          "knockback_range": 24,
+          "knockback_vertical_strength": 1,
+          "knockback_height_cap": 1,
+          "track_target": false,
+          "knockback_strength": 1,
+          "knockback_filters": {
+            "all_of": [
+              {
+                "test": "is_underwater",
+                "value": false,
+                "subject": "other"
+              }
+            ]
+          },
+          "damage_filters": {},
+          "on_roar_end": {
+            "event": "celestia:knockback",
+            "target": "self"
+          }
+        }
+      },
+      "celestia:despawn": {
+        "minecraft:instant_despawn": {}
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": ["weather", "weather_wind", "cyclone"]
+      },
+      "minecraft:knockback_resistance": {
+        "value": 100,
+        "max": 100
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "on_damage": {
+              "filters": {
+                "test": "is_family",
+                "subject": "other",
+                "value": "wind"
+              },
+              "event": "celestia:despawn"
+            },
+            "deals_damage": "no"
+          },
+          {
+            "cause": "all",
+            "deals_damage": "no"
+          }
+        ]
+      },
+      "minecraft:on_death": {
+        "event": "celestia:despawn",
+        "target": "self"
+      },
+      "minecraft:timer": {
+        "time": [16.0, 64.0],
+        "looping": false,
+        "time_down_event": {
+          "event": "celestia:despawn"
+        }
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": ["celestia:knockback"]
+        }
+      },
+      "celestia:knockback": {
+        "add": {
+          "component_groups": ["celestia:knockback"]
+        },
+        "queue_command": {
+          "command": ["execute as @a[r=64] run weather thunder"]
+        }
+      },
+      "celestia:despawn": {
+        "add": {
+          "component_groups": ["celestia:despawn"]
+        },
+        "queue_command": {
+          "command": ["execute as @a[r=64] run weather clear"]
+        }
+      }
+    }
+  }
+}

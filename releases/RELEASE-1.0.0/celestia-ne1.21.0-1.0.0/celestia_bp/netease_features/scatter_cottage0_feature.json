@@ -1,0 +1,19 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "celestia:scatter_cottage0_feature"
+    },
+    "places_feature": "celestia:cottage0_structure",
+    "iterations": 1,
+    "x": {
+      "distribution": "uniform",
+      "extent": [0, 2]
+    },
+    "y": 7,
+    "z": {
+      "distribution": "uniform",
+      "extent": [0, 2]
+    }
+  }
+}

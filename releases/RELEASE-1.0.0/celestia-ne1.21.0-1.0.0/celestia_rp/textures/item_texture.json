@@ -1,0 +1,9 @@
+{
+    "resource_pack_name": "celestia",
+    "texture_data": {
+        "wind": {
+            "textures": "textures/items/wind"
+        }
+    },
+    "texture_name": "atlas.items"
+}

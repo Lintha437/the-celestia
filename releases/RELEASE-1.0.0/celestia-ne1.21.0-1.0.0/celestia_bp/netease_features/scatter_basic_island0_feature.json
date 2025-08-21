@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "celestia:scatter_basic_island0_feature"
+    },
+    "places_feature": "celestia:basic_island0_structure",
+    "iterations": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  }
+}

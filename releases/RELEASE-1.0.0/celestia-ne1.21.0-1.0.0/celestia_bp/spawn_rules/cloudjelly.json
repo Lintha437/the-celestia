@@ -1,0 +1,51 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "celestia:cloudjelly",
+      "population_control": "animal"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+        "minecraft:spawns_underground": {},
+        "minecraft:spawns_underwater": {},
+        "minecraft:weight": {
+          "default": 16
+        },
+        "minecraft:distance_filter": {
+          "min": 16,
+          "max": 64
+        },
+        "minecraft:density_limit": {
+          "surface": 64
+        },
+        "minecraft:herd": {
+          "min_size": 1,
+          "max_size": 64
+        },
+        "minecraft:biome_filter": [
+          {
+            "any_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "overworld"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "overworld_generation"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "the_end"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

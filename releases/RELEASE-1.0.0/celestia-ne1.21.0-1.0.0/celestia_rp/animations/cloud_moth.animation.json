@@ -1,0 +1,38 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cloud_moth.flying": {
+			"loop": true,
+			"anim_time_update": "query.modified_distance_moved",
+			"bones": {
+				"bodyPart_0": {
+					"rotation": ["query.target_x_rotation / 2", "query.target_y_rotation / 2", 0]
+				},
+				"bodyPart_1": {
+					"rotation": ["query.target_x_rotation / 2", "query.target_y_rotation / 2", 0]
+				},
+				"bodyPart_2": {
+					"position": [0, 4, 0]
+				},
+				"bodyPart_3": {
+					"rotation": ["-15 + math.sin(query.life_time * 1024) * 24", 0, 0]
+				},
+				"bodyPart_4": {
+					"rotation": ["-15 + math.sin(query.life_time * 1024 + 64) * 24", 0, 0]
+				},
+				"bodyPart_5": {
+					"rotation": ["-15 + math.sin(query.life_time * 1024 + 128) * 24", 0, 0]
+				},
+				"bodyPart_6": {
+					"rotation": ["-15 + math.sin(query.life_time * 1024 + 192) * 24", 0, 0]
+				},
+				"leftwing_bone": {
+					"rotation": [0, 0, "math.sin(query.life_time * 2048) * 35"]
+				},
+				"rightwing_bone": {
+					"rotation": [0, 0, "math.sin(query.life_time * 2048) * -35"]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "celestia:anticyclone",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/empty"
+      },
+      "geometry": {
+        "default": "geometry.cyclone"
+      },
+      "particle_effects": {
+        "default": "celestia:anticyclone_particle"
+      },
+      "animations": {
+        "default": "controller.animation.cyclone.default",
+        "default_ani": "animation.anticyclone.default"
+      },
+      "scripts": {
+        "animate": ["default"]
+      },
+      "render_controllers": ["controller.render.cyclone"]
+    }
+  }
+}
