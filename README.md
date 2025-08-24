@@ -4,13 +4,14 @@
 > **Note:** The first terrain generation may take **1 to 2 minutes**. Please be patient.
 >
 > **Dev / Art / Design:** Fairydewstz
+> 
 > **Mod Community QQ Group:** 767870624
 
 ------
 
 
 
-![title-en](description\images\title-en.png)
+![title-en](description/images/title-en.png)
 
 
 
@@ -71,7 +72,7 @@ Other ores generate evenly throughout the **stone** and **deepslate layers** wit
 
 ## **Gallery**
 
-![c91ed2f5-a9f3-4dec-86b5-0cbf68145687](description\images\c91ed2f5-a9f3-4dec-86b5-0cbf68145687.png)
+![c91ed2f5-a9f3-4dec-86b5-0cbf68145687](description/images/c91ed2f5-a9f3-4dec-86b5-0cbf68145687.png)
 
 > Cloud Moth and Cliff
 
