@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "celestia:desert_random_grass_feature"
+    },
+    "features": [
+      ["celestia:deadbush_feature", 1],
+      ["celestia:short_dry_grass_feature", 2],
+      ["celestia:tall_dry_grass_feature", 1]
+    ]
+  }
+}

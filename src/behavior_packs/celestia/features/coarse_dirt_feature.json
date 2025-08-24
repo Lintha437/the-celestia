@@ -4,7 +4,7 @@
     "description": {
       "identifier": "celestia:coarse_dirt_feature"
     },
-    "count": 24,
+    "count": 16,
     "replace_rules": [
       {
         "places_block": {

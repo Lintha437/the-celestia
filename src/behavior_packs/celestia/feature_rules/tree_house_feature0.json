@@ -31,7 +31,7 @@
     },
     "distribution": {
       "iterations": 1,
-      "scatter_chance": 4,
+      "scatter_chance": 1,
       "x": 0,
       "y": "query.above_top_solid(variable.worldx, variable.worldz) - 9",
       "z": 0

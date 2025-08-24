@@ -9,7 +9,6 @@
     "enforce_placement_rules": false,
     "may_attach_to": {
       "bottom": [
-        "minecraft:stone",
         "minecraft:grass_block",
         "minecraft:podzol",
         "minecraft:mycelium",
