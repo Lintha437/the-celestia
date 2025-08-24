@@ -7,6 +7,9 @@
     "structure_name": "celestia:cottage0",
     "adjustment_radius": 0,
     "facing_direction": "west",
-    "constraints": {}
+    "constraints": {
+      "grounded": {},
+      "unburied": {}
+    }
   }
 }

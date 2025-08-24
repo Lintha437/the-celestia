@@ -2,11 +2,11 @@
   "format_version": "1.14.0",
   "minecraft:feature_rules": {
     "description": {
-      "identifier": "celestia:overworld_flat_air_feature",
-      "places_feature": "celestia:scatter_flat_air_feature"
+      "identifier": "celestia:overworld_flat_before_air_feature",
+      "places_feature": "celestia:scatter_flat_before_air_feature"
     },
     "conditions": {
-      "placement_pass": "final_pass",
+      "placement_pass": "first_pass",
       "minecraft:biome_filter": [
         {
           "any_of": [

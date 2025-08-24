@@ -7,6 +7,8 @@
     "structure_name": "celestia:skyware_fortress0",
     "adjustment_radius": 16,
     "facing_direction": "random",
-    "constraints": {}
+    "constraints": {
+      "unburied": {}
+    }
   }
 }

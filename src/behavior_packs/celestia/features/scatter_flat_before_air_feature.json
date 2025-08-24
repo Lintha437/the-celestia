@@ -1,0 +1,22 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "celestia:scatter_flat_before_air_feature"
+    },
+    "places_feature": "celestia:before_air_feature",
+    "iterations": 49152,
+    "x": {
+      "extent": [0, 15],
+      "distribution": "fixed_grid"
+    },
+    "y": {
+      "extent": [0, 255],
+      "distribution": "fixed_grid"
+    },
+    "z": {
+      "extent": [0, 15],
+      "distribution": "fixed_grid"
+    }
+  }
+}
