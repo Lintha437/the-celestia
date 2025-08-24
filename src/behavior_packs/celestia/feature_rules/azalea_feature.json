@@ -6,7 +6,7 @@
       "places_feature": "celestia:azalea_feature"
     },
     "conditions": {
-      "placement_pass": "final_pass",
+      "placement_pass": "after_sky_pass",
       "minecraft:biome_filter": [
         {
           "any_of": [

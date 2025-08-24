@@ -6,7 +6,7 @@
       "places_feature": "minecraft:fixup_vines_position_feature"
     },
     "conditions": {
-      "placement_pass": "final_pass",
+      "placement_pass": "after_sky_pass",
       "minecraft:biome_filter": [
         {
           "any_of": [

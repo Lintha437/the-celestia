@@ -6,7 +6,7 @@
       "places_feature": "celestia:main_terrain_processor_feature"
     },
     "conditions": {
-      "placement_pass": "sky_pass",
+      "placement_pass": "before_sky_pass",
       "minecraft:biome_filter": [
         {
           "any_of": [

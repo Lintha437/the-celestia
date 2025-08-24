@@ -6,7 +6,7 @@
       "places_feature": "celestia:copper_ore_feature"
     },
     "conditions": {
-      "placement_pass": "after_sky_pass",
+      "placement_pass": "sky_pass",
       "minecraft:biome_filter": [
         {
           "any_of": [
