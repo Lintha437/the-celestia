@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "celestia:tree_house0_structure"
+    },
+    "structure_name": "celestia:tree_house0",
+    "adjustment_radius": 16,
+    "facing_direction": "random",
+    "constraints": {
+      "grounded": {}
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "format_version": "1.14.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "celestia:cave_caver_feature",
+      "places_feature": "celestia:cave_caver_feature"
+    },
+    "conditions": {
+      "placement_pass": "after_sky_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "overworld"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "overworld_generation"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "the_end"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 4,
+      "scatter_chance": 12.5,
+      "coordinate_eval_order": "xzy",
+      "x": {
+        "distribution": "uniform",
+        "extent": [0, 15]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [160, 224]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [0, 15]
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "celestia:wind",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/empty"
+      },
+      "geometry": {
+        "default": "geometry.wind"
+      },
+      "particle_effects": {
+        "default": "celestia:wind_particle"
+      },
+      "animations": {
+        "default": "controller.animation.wind.default",
+        "default_ani": "animation.wind.default"
+      },
+      "scripts": {
+        "animate": ["default"]
+      },
+      "render_controllers": ["controller.render.wind"]
+    }
+  }
+}

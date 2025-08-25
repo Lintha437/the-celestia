@@ -1,0 +1,35 @@
+{
+  "format_version": "1.14.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "celestia:overworld_flat_before_air_feature",
+      "places_feature": "celestia:scatter_flat_before_air_feature"
+    },
+    "conditions": {
+      "placement_pass": "first_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "overworld"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "overworld_generation"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "coordinate_eval_order": "xzy",
+      "x": 0,
+      "y": -64,
+      "z": 0
+    }
+  }
+}

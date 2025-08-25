@@ -1,0 +1,55 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:block": {
+        "components": {
+            "minecraft:block_light_absorption": {
+                "value": 4
+            },
+            "minecraft:block_light_emission": {
+                "emission": 0.2667
+            },
+            "minecraft:destroy_time": {
+                "value": 0.0
+            },
+            "netease:aabb": {
+                "clip": {
+                    "max": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "min": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "collision": {
+                    "max": [
+                        1.0,
+                        0.125,
+                        1.0
+                    ],
+                    "min": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "netease:custom_tips": {
+                "value": "提供缓降，吸引云鳐，丢到地面可以吸引风灵来食用并给予一个“风”，或长按风灵可以喂食风灵并被给予一个“风”"
+            },
+            "netease:pathable": {
+                "value": true
+            },
+            "netease:render_layer": {
+                "value": "blend"
+            }
+        },
+        "description": {
+            "category": "nature",
+            "identifier": "celestia:cloud"
+        }
+    }
+}

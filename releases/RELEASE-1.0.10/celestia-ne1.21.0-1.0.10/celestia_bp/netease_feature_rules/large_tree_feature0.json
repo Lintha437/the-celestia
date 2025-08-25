@@ -1,0 +1,46 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "celestia:large_tree_feature0",
+      "places_feature": "celestia:large_tree0_structure"
+    },
+    "conditions": {
+      "placement_pass": "after_sky_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "overworld"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "overworld_generation"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "the_end"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 6.25,
+      "x": {
+        "distribution": "uniform",
+        "extent": [0, 15]
+      },
+      "y": "query.above_top_solid(variable.worldx, variable.worldz) - 1",
+      "z": {
+        "distribution": "uniform",
+        "extent": [0, 15]
+      }
+    }
+  }
+}

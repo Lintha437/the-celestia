@@ -1,0 +1,20 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "celestia:cherry_sapling_feature"
+    },
+    "places_block": "minecraft:cherry_sapling",
+    "enforce_survivability_rules": false,
+    "enforce_placement_rules": false,
+    "may_attach_to": {
+      "bottom": [
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:mycelium",
+        "minecraft:moss_block"
+      ]
+    },
+    "may_replace": ["minecraft:air"]
+  }
+}

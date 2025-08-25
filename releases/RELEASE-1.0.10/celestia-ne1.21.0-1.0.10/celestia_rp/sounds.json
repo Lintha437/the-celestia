@@ -1,0 +1,50 @@
+{
+  "individual_event_sounds": {
+    "events": {}
+  },
+  "entity_sounds": {
+    "entities": {
+      "celestia:cloudskater": {
+        "volume": 4.0,
+        "pitch": [0.8, 1.2],
+        "events": {
+          "ambient": "mob.cloudskater.say",
+          "hurt": "mob.cloudskater.hurt",
+          "death": "mob.cloudskater.death"
+        }
+      },
+      "celestia:cloud_moth": {
+        "volume": 1.0,
+        "pitch": [0.8, 1.2],
+        "events": {
+          "ambient": "mob.cloud_moth.say",
+          "hurt": "mob.cloud_moth.hit",
+          "death": "mob.cloud_moth.kill",
+          "step": {
+            "sound": "mob.cloud_moth.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "celestia:cloudjelly": {
+        "volume": 1.0,
+        "pitch": [0.8, 1.2],
+        "events": {
+          "ambient": "",
+          "hurt": "mob.cloudjelly.hurt",
+          "death": "mob.cloudjelly.hurt"
+        }
+      },
+      "celestia:windlin": {
+        "volume": 2.0,
+        "pitch": [0.4, 0.8],
+        "events": {
+          "ambient": "",
+          "hurt": "mob.windlin.hurt",
+          "death": "mob.windlin.hurt"
+        }
+      }
+    }
+  }
+}

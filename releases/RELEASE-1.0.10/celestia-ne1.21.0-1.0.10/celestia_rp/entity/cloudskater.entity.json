@@ -1,0 +1,44 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "celestia:cloudskater",
+      "materials": {
+        "default": "entity_emissive_alpha",
+        "invisible": "phantom_invisible"
+      },
+      "textures": {
+        "default": "textures/entity/cloudskater/cloudskater"
+      },
+      "geometry": {
+        "default": "geometry.cloudskater"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.wingRotZ = 16.0 * Math.sin((query.life_time * 16.0) * 8.0);",
+          "variable.tailRotX = -5.0 * Math.sin((query.life_time * 16.0) * 16.0) - 5.0;"
+        ]
+      },
+      "animations": {
+        "base_pose": "animation.cloudskater.base_pose",
+        "move": "animation.cloudskater.move"
+      },
+      "animation_controllers": [
+        {
+          "base_pose": "controller.animation.cloudskater.base_pose"
+        },
+        {
+          "move": "controller.animation.cloudskater.move"
+        }
+      ],
+      "particle_effects": {
+        "wing_cloud": "celestia:cloudskater_trail_particle"
+      },
+      "render_controllers": ["controller.render.cloudskater"],
+      "spawn_egg": {
+        "base_color": "#f3e5de",
+        "overlay_color": "#6a749f"
+      }
+    }
+  }
+}

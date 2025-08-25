@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "celestia:oasis_random_grass_feature"
+    },
+    "features": [
+      ["celestia:short_grass_feature", 24],
+      ["celestia:fern_feature", 12],
+      ["celestia:bush_feature", 3],
+      ["celestia:firefly_bush_feature", 1]
+    ]
+  }
+}

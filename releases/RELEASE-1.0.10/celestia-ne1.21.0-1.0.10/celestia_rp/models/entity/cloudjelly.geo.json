@@ -1,0 +1,75 @@
+{
+	"format_version": "1.8.0",
+	"geometry.cloudjelly": {
+		"texturewidth": 24,
+		"textureheight": 12,
+		"visible_bounds_width": 64,
+		"visible_bounds_height": 64,
+		"visible_bounds_offset": [0, 4, 0],
+		"bones": [
+			{
+				"name": "root",
+				"pivot": [0, 0, 0]
+			},
+			{
+				"name": "body",
+				"parent": "root",
+				"pivot": [0, 3, 0],
+				"cubes": [
+					{"origin": [-3, 0, -3], "size": [6, 6, 6], "uv": [0, 0]}
+				],
+				"locators": {
+					"lead": [0, 3, 0]
+				}
+			},
+			{
+				"name": "tentacle0",
+				"parent": "body",
+				"pivot": [1.5, 0, -1.5],
+				"rotation": [0, -45, 0],
+				"cubes": [
+					{"origin": [1, -5, -2], "size": [1, 5, 1], "uv": [0, 0]}
+				],
+				"locators": {
+					"tentacle0": [1.5, -5, -1.5]
+				}
+			},
+			{
+				"name": "tentacle1",
+				"parent": "body",
+				"pivot": [-1.5, 0, -1.5],
+				"rotation": [0, 45, 0],
+				"cubes": [
+					{"origin": [-2, -5, -2], "size": [1, 5, 1], "uv": [0, 0]}
+				],
+				"locators": {
+					"tentacle1": [-1.5, -5, -1.5]
+				}
+			},
+			{
+				"name": "tentacle2",
+				"parent": "body",
+				"pivot": [1.5, 0, 1.5],
+				"rotation": [0, -135, 0],
+				"cubes": [
+					{"origin": [1, -5, 1], "size": [1, 5, 1], "uv": [0, 0]}
+				],
+				"locators": {
+					"tentacle2": [1.5, -5, 1.5]
+				}
+			},
+			{
+				"name": "tentacle3",
+				"parent": "body",
+				"pivot": [-1.5, 0, 1.5],
+				"rotation": [0, 135, 0],
+				"cubes": [
+					{"origin": [-2, -5, 1], "size": [1, 5, 1], "uv": [0, 0]}
+				],
+				"locators": {
+					"tentacle3": [-1.5, -5, 1.5]
+				}
+			}
+		]
+	}
+}

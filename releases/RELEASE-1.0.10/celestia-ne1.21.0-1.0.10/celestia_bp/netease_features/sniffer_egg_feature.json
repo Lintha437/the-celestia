@@ -1,0 +1,31 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "celestia:sniffer_egg_feature"
+    },
+    "places_block": "minecraft:sniffer_egg",
+    "enforce_survivability_rules": false,
+    "enforce_placement_rules": true,
+    "may_attach_to": {
+      "bottom": [
+        {
+          "name": "minecraft:stone"
+        },
+        {
+          "name": "minecraft:grass_block"
+        },
+        {
+          "name": "minecraft:podzol"
+        },
+        {
+          "name": "minecraft:mycelium"
+        },
+        {
+          "name": "minecraft:moss_block"
+        }
+      ]
+    },
+    "may_replace": ["minecraft:air"]
+  }
+}

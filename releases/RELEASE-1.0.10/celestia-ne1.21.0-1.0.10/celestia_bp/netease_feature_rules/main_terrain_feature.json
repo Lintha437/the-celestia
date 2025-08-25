@@ -1,0 +1,49 @@
+{
+  "format_version": "1.14.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "celestia:main_terrain_feature",
+      "places_feature": "celestia:main_terrain_processor_feature"
+    },
+    "conditions": {
+      "placement_pass": "before_sky_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "overworld"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "overworld_generation"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "the_end"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 32768,
+      "coordinate_eval_order": "xzy",
+      "x": {
+        "distribution": "fixed_grid",
+        "extent": [0, 15]
+      },
+      "y": {
+        "distribution": "fixed_grid",
+        "extent": [128, 256]
+      },
+      "z": {
+        "distribution": "fixed_grid",
+        "extent": [0, 15]
+      }
+    }
+  }
+}

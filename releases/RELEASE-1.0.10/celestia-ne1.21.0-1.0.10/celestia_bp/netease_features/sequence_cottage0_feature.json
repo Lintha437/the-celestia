@@ -1,0 +1,9 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:sequence_feature": {
+    "description": {
+      "identifier": "celestia:sequence_cottage0_feature"
+    },
+    "features": ["celestia:scatter_basic_island0_feature", "celestia:scatter_cottage0_feature"]
+  }
+}

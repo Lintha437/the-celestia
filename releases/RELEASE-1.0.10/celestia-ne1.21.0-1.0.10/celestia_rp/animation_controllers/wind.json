@@ -1,0 +1,18 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.wind.default": {
+      "states": {
+        "default": {
+          "animations": ["default_ani"],
+          "particle_effects": [
+            {
+              "effect": "default",
+              "locator": "locator"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
