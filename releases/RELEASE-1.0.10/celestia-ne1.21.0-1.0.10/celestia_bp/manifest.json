@@ -3,7 +3,7 @@
   "header": {
     "name": "pack.name",
     "description": "pack.description",
-    "uuid": "21e9e878-4c4f-424c-bee7-f8a2aa502fac",
+    "uuid": "21e9e878-4c4f-424c-bee4-f8a2aa502fac",
     "version": [1, 0, 10],
     "min_engine_version": [1, 21, 0]
   },
@@ -11,21 +11,21 @@
     {
       "description": "The Celestia Behavior",
       "version": [1, 0, 10],
-      "uuid": "0788ab0d-9386-4d4e-a6bd-f8697e0c5f99",
+      "uuid": "0788ab0d-9384-4d4e-a6bd-f8697e0c5f99",
       "type": "data"
     },
     {
       "description": "Script resources",
       "language": "javascript",
       "type": "script",
-      "uuid": "4e056c5b-7896-4b26-b00f-88ab6453335b",
+      "uuid": "4e056c5b-8896-4b26-b00f-88ab6453335b",
       "version": [0, 0, 1],
       "entry": "scripts/main.js"
     }
   ],
   "dependencies": [
     {
-      "uuid": "b65183cd-69a3-4e9e-ac99-e16404b401cb",
+      "uuid": "b65183cd-69a4-4e9e-ac99-e16404b401cb",
       "version": [1, 0, 10]
     },
     {
